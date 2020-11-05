@@ -14,7 +14,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let newVC = segue.destination as! characterViewController
+        if segue.identifier == "pheonixSegue"
+        {
+            newVC.character = "Pheonix"
+            
+        }
+        if segue.identifier == "breachSegue"
+        {
+            newVC.character = "Breach"
+        }
+        
+    }
 
 }
 

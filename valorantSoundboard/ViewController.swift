@@ -16,9 +16,11 @@ class ViewController: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let newVC = segue.destination as! characterViewController
-        if segue.identifier == "pheonixSegue"
+        if segue.identifier == "phoenixSegue"
         {
-            newVC.character = "Pheonix"
+            newVC.character = "Phoenix"
+
+            
             
         }
         if segue.identifier == "breachSegue"

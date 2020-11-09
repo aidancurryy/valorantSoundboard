@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="pheonix" image="pheonix"/>
                                 <connections>
-                                    <segue destination="e5X-0c-mp1" kind="show" identifier="pheonixSegue" id="uq8-Ic-G5J"/>
+                                    <segue destination="e5X-0c-mp1" kind="show" identifier="phoenixSegue" id="uq8-Ic-G5J"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dFn-Il-yVX">
